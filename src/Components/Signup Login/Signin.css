@@ -1,0 +1,23 @@
+.mainSign{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signinMainLeft{
+    border: 1PX solid red;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 50%;
+}
+.signinMainRight{
+    border: 1PX solid red;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 50%;
+}
+.signinButton{
+border-radius: 0px;  
+color:  black;  
+
+}

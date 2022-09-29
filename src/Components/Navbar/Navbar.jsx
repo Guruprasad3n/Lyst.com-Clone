@@ -10,13 +10,9 @@ import {
   ModalOverlay,
   Select,
   Spacer,
-  Text,
   useDisclosure,
 } from "@chakra-ui/react";
-import { Link, NavLink, Route, Routes } from "react-router-dom";
-import Men from "../Pages/Men";
-import Women from "../Pages/Women";
-
+import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 // const links = [
@@ -190,7 +186,7 @@ function Navbar() {
             </select>
 
             <div style={{ display: "flex", justifyContent: "space-around" }}>
-              <NavLink to="/signup">Signin</NavLink>
+              <NavLink to="/signin">Signin</NavLink>
               <div
                 style={{
                   border: "1px solid black",
