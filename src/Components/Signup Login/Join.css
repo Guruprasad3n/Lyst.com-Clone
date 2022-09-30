@@ -1,40 +1,35 @@
-.mainSign{
+.mainLog{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.signinMainLeft{
+.loginMainLeft{
     /* border: 1PX solid red; */
     box-sizing: border-box;
     padding: 15px;
     width:50%;
 }
-.signinMainRight{
+.loginMainRight{
     /* border: 1PX solid red; */
     box-sizing: border-box;
-    padding: 180px 30px;
+    padding: 350px 30px;
     width:50%;
     background-image: linear-gradient(to bottom right, rgb(192, 216, 243), rgb(134, 95, 206));
     box-sizing: border-box;
    
 
 }
-/* .signinButton{
-border-radius: 0px;  
-color:  black;  
-
-} */
-.signinMainRightInside{
+.loginMainRightInside{
     background-color: rgb(255, 255, 255);
     /* border: 1px solid red; */
     padding: 25px 15px;
     line-height: 35px;
 }
-.signlo{
-    line-height: 35px;
-    font-weight: 500;
-   display: flex;
-   align-items: center;
-   gap: 20px;
+.loginlo {
+  line-height: 35px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }

@@ -31,8 +31,9 @@
   height: 50px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 25%;
+  gap: 20px;
 }
 .navtop2left + input {
   width: 71%;

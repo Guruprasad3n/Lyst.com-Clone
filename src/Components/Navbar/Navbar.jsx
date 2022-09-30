@@ -204,7 +204,7 @@ function Navbar() {
 
         <div className="navtop2">
           <div className="navtop2left">
-            <Link >
+            <Link to="/" >
            <Image  w="50%"  src="https://www.lyst.com/news/wp-content/uploads/2021/06/lyst-logo.png" alt="LYST Logo" />
            </Link>
                <Link to="/women">WOMEN</Link>

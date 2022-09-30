@@ -1,9 +1,9 @@
 import { Button } from '@chakra-ui/react'
 
-function Butto({text, style}) {
+function Butto({text, style, icon}) {
   return (
     <div>
-      <Button style={style} colorScheme="teal" size="md">{text}</Button>
+      <Button icon={icon} style={style} colorScheme="teal" size="md">{text}</Button>
     </div>
   );
 }

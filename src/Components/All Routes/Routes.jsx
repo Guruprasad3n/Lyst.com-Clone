@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import Home from "../Pages/Home";
 import Men from "../Pages/Men";
 import Women from "../Pages/Women";
 import Join from "../Signup Login/Join";
@@ -10,7 +11,7 @@ function AllRoutes() {
       <Routes>
         <Route path="/signin" element={<Signin />} />
         <Route path="/join" element={<Join />} />
-
+        <Route path="/" element={<Home/>} />
         <Route path="/women" element={<Women />} />
         <Route path="/men" element={<Men />} />
       </Routes>
