@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import PrivateRouter from "../Context/PrivateRouter";
 import Home from "../Pages/Home";
 import Men from "../Pages/Men";
 import Women from "../Pages/Women";
@@ -9,9 +10,9 @@ function AllRoutes() {
   return (
     <div>
       <Routes>
+        <Route path="/" element={<PrivateRouter> <Home/> </PrivateRouter>} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/join" element={<Join />} />
-        <Route path="/" element={<Home/>} />
         <Route path="/women" element={<Women />} />
         <Route path="/men" element={<Men />} />
       </Routes>

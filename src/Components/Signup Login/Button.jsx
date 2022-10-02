@@ -1,9 +1,9 @@
 import { Button } from '@chakra-ui/react'
 
-function Butto({text, style, icon}) {
+function Butto({text, style, icon, onSubmit}) {
   return (
     <div>
-      <Button icon={icon} style={style} colorScheme="teal" size="md">{text}</Button>
+      <Button onSubmit={onSubmit} icon={icon} style={style} colorScheme="teal" size="md">{text}</Button>
     </div>
   );
 }
