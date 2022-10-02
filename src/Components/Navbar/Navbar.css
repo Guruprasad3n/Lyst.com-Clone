@@ -1,0 +1,50 @@
+.navParent {
+  /* border: 1px solid red; */
+  width: 99%;
+  margin: auto;
+}
+.navtop1 {
+  /* border: 1px solid red; */
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navtop11 {
+  width: 25%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navselect {
+  outline: 0px;
+  border: 0px;
+}
+.navtop2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navtop2 > div {
+  /* border: 1px solid red; */
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 25%;
+  gap: 20px;
+}
+.navtop2left + input {
+  width: 71%;
+  padding: 11px 35px;
+  border: 1px solid;
+  outline: 0px;
+}
+.navtop2left{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80%;
+  height: 80%;
+}

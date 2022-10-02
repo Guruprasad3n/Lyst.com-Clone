@@ -1,0 +1,40 @@
+.home_discover {
+    border: 0.1rem solid black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto,auto);
+    margin-top: 1rem;
+  }
+  .home_discover_card {
+    /* border: 1px solid red; */
+    border-bottom: 1px solid black;
+    display: flex;
+    margin: auto;
+  }
+  
+  .home_discover_div_p {
+    width: 20%;
+    /* border: 5px solid yellow; */
+    text-transform: uppercase;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align:start;
+  }
+  .home_discover_div_p >p{
+    margin: auto;
+    justify-content: baseline;
+  }
+  .home_discover_div_img {
+    /* border: 5px solid orange; */
+    border-right: 0.1rem solid black;
+    width:80%;
+    height: auto;
+  }
+  .home_discover_div_img > img {
+    width: 100%;
+    /* border: 1px solid red; */
+    height: auto;
+  }
